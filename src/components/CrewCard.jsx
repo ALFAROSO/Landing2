@@ -14,13 +14,13 @@ export default function CrewCard({ member }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/public/assets/linkdin.svg" />
+                <img src="/assets/linkdin.svg" />
               </a>
               <a href={member.site} target="_blank" rel="noopener noreferrer">
                 {member.type === "designer" ? (
-                  <img src="/public/assets/suitcase.svg" />
+                  <img src="/assets/suitcase.svg" />
                 ) : (
-                  <img src="/public/assets/github 2.svg" />
+                  <img src="/assets/github 2.svg" />
                 )}
               </a>
             </div>

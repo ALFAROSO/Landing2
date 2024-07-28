@@ -3,7 +3,7 @@ import CrewCard from "../components/CrewCard";
 export default function Team() {
   const team = [
     {
-      img: "/public/assets/crews/Anthony.svg",
+      img: "/assets/crews/Anthony.svg",
       name: "Anthony Okoduwa",
       role: "UX/UI Designer",
       description: `With a background in international relations and diplomacy, I am passionate about designing intuitive interfaces, researching user needs and creating more efficient designs for a better user experience.
@@ -15,7 +15,7 @@ export default function Team() {
       site: "https://www.behance.net/anthonyokoduwa7",
     },
     {
-      img: "/public/assets/crews/Anjali.svg",
+      img: "/assets/crews/Anjali.svg",
       name: "Anjali Rajesh",
       role: "UI/UX Designer",
       description: `With my animation and graphic design background, I've spent the last 7 years crafting user-friendly interfaces and experiences for products. Today, I’m practicing AI in design and refining my UX skills.
@@ -26,7 +26,7 @@ export default function Team() {
       site: "https://www.behance.net/anjalirajesh",
     },
     {
-      img: "/public/assets/crews/Naoya.svg",
+      img: "/assets/crews/Naoya.svg",
       name: "Naoya Sasaki",
       role: "Project Manager, UI/UX Designer",
       description: `Through my background in system engineering, I align design ideas with development execution. I organize processes and refine UI and UX details, while properly managing the time, project and team.
@@ -36,7 +36,7 @@ export default function Team() {
       site: "https://www.naoyasasaki.com",
     },
     {
-      img: "/public/assets/crews/Tia.svg",
+      img: "/assets/crews/Tia.svg",
       name: "Tia Le Santoi",
       role: "Lead UI/UX Designer",
       description: `I have a background in animation, digital marketing and PR. I am passionate about user-friendly, simple design with strengths in organization, leadership and communication of ideas in UI and UX projects.
@@ -46,7 +46,7 @@ export default function Team() {
       site: "https://www.behance.net/tialesanto",
     },
     {
-      img: "/public/assets/crews/Patricia.svg",
+      img: "/assets/crews/Patricia.svg",
       name: "Patricia Clemente",
       role: "UI/UX Designer",
       description: `Passionate about graphic design, marketing, content creation and now UI/UX design, I bring people’s visions to life. I aim to create effective and efficient solutions that enhance daily experiences..
@@ -58,7 +58,7 @@ export default function Team() {
   ];
   const devs = [
     {
-      img: "/public/assets/crews/Alberth.svg",
+      img: "/assets/crews/Alberth.svg",
       name: "Alberth Rodriguez",
       role: "Full Stack Developer",
       description: `Empowered by industrial engineering, finance and human resources experience, I streamline operations and craft solutions through my programming skills to drive positive change and simplify people’s lives.
@@ -68,7 +68,7 @@ export default function Team() {
       site: "https://github.com/ALFAROSO",
     },
     {
-      img: "/public/assets/crews/Andy.svg",
+      img: "/assets/crews/Andy.svg",
       name: "Ching-Chen, Su",
       role: "Full Stack Developer",
       description: `A former strength and conditioning coach, I’ve recently ventured into the realm of program development, focusing on the front-end aspect and gaining more knowledge on backend development.
@@ -78,7 +78,7 @@ export default function Team() {
       site: "https://github.com/andysu1126",
     },
     {
-      img: "/public/assets/crews/Emre.svg",
+      img: "/assets/crews/Emre.svg",
       name: "Emre Aydin",
       role: " Co-Lead Full Stack Developer",
       description: `I began my career as a programmer and transitioned to an Account Manager role. Now, I've returned to programming, eagerly delving into both back-end and front-end development for mobile applications.
@@ -89,7 +89,7 @@ export default function Team() {
       site: "https://github.com/eemraydin",
     },
     {
-      img: "/public/assets/crews/Masa.svg",
+      img: "/assets/crews/Masa.svg",
       name: "Masahiro Kanamaru",
       role: " Co-Lead Full Stack Developer",
       description: `Starting as a Software Engineer, I have developed 
@@ -107,13 +107,13 @@ a package software that helps design electronic devices. Driven by curiosity and
     <div className="teamPageContainer">
       <img
         className="homeImage"
-        src="/public/assets/images/teamPageFeatureImg.png"
+        src="/assets/images/teamPageFeatureImg.png"
         alt="group photo"
       />
       <div className="shaper">
         <div className="teamContentContainer">
           <div className="teamSectionOne">
-            <img src="/public/assets/seedling.svg" />
+            <img src="/assets/seedling.svg" />
             <h2>Team Bee</h2>
             <p>
               <span>GreenCircle</span> was made possible with our talented &
@@ -137,7 +137,7 @@ a package software that helps design electronic devices. Driven by curiosity and
 
             {/* <button className="smallDownLoad">Download Proposal</button> */}
             <a
-              href="/public/assets/GreenCircle_Project Proposal.pdf"
+              href="/assets/GreenCircle_Project Proposal.pdf"
               download="Proposal.pdf"
               className="smallDownLoad noneDisplay"
             >
@@ -152,12 +152,12 @@ a package software that helps design electronic devices. Driven by curiosity and
 // <div className="teamPageContainer">
 //   <img
 //     className="homeImage"
-//     src="/public/assets/images/homePageImage.png"
+//     src="/assets/images/homePageImage.png"
 //     alt="group photo"
 //   />
 //   <div className="teamContentContainer">
 //     <div className="teamSectionOne">
-//       <img src="/public/assets/seedling.svg" />
+//       <img src="/assets/seedling.svg" />
 //       <h2>Team Bee</h2>
 //       <p>
 //         <span>GreenCircle</span> was made possible with our talented &
@@ -181,7 +181,7 @@ a package software that helps design electronic devices. Driven by curiosity and
 
 //       {/* <button className="smallDownLoad">Download Proposal</button> */}
 //       <a
-//         href="/public/assets/GreenCircle_Project Proposal.pdf"
+//         href="/assets/GreenCircle_Project Proposal.pdf"
 //         download="Proposal.pdf"
 //         className="smallDownLoad"
 //       >

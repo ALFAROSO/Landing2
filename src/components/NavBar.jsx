@@ -4,8 +4,8 @@ export default function NavBar() {
   return (
     <nav className="nav">
       <a href="/">
-        <img src="/public/assets/logo.svg" alt="logo" id="navSvgSmall" />
-        <img src="/public/assets/largeLogo.svg" alt="logo" id="navSvgLarge" />
+        <img src="/assets/logo.svg" alt="logo" id="navSvgSmall" />
+        <img src="/assets/largeLogo.svg" alt="logo" id="navSvgLarge" />
       </a>
 
       <ul className="navItems">
@@ -19,7 +19,7 @@ export default function NavBar() {
           <li>
             <a
               id="dw"
-              href="/public/assets/GreenCircle_Project Proposal.pdf"
+              href="/assets/GreenCircle_Project Proposal.pdf"
               download="Proposal.pdf"
               className="desktopDownLoad"
             >

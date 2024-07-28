@@ -186,7 +186,7 @@ a {
   color: #323232;
 }
 .sectionThree__left {
-  background-image: url("/public/assets/phoneBackGroundSmall.svg");
+  background-image: url("/assets/phoneBackGroundSmall.svg");
   background-size: 32rem 59rem;
   background-repeat: no-repeat;
 }
@@ -479,7 +479,7 @@ p span {
   .teamSectionOne {
     height: 100vh;
     width: 100%;
-    background-image: url("/public/assets/upperDotTeam.svg");
+    background-image: url("/assets/upperDotTeam.svg");
     background-repeat: no-repeat;
     background-size: 140rem 70rem;
     background-position: right 50%;
@@ -561,7 +561,7 @@ p span {
     width: 100%;
     height: 100%;
     /* margin-top: 20%; */
-    background-image: url("/public/assets/lowerBackgroundTeam.svg");
+    background-image: url("/assets/lowerBackgroundTeam.svg");
     background-repeat: no-repeat;
     /* background-size: 80rem 60rem; */
     background-size: 100%;
@@ -599,7 +599,7 @@ p span {
     height: auto;
   }
   .sectionTwo {
-    background-image: url(/public/assets/leaves.svg);
+    background-image: url(/assets/leaves.svg);
     background-repeat: no-repeat;
     height: 100vh;
     align-content: center;
@@ -655,7 +655,7 @@ p span {
     height: 100vh;
   }
   .sectionThree__left {
-    background-image: url(/public/assets/homePgBtom.svg);
+    background-image: url(/assets/homePgBtom.svg);
     background-size: 100%;
     padding: 3rem;
   }

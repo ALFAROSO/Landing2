@@ -3,7 +3,7 @@ export default function Home() {
     <div className="homePageContainer">
       <img
         className="homeImage"
-        src="/public/assets/images/homePageImage.png"
+        src="/assets/images/homePageImage.png"
         alt="group photo"
       />
       <div className="contentContainer">
@@ -17,17 +17,17 @@ export default function Home() {
             <img
               className="featureImages"
               id="feature1"
-              src="/public/assets/images/feature1.png"
+              src="/assets/images/feature1.png"
             />
             <img
               className="featureImages"
               id="feature2"
-              src="/public/assets/images/feature3.png"
+              src="/assets/images/feature3.png"
             />
             <img
               className="featureImages"
               id="feature3"
-              src="/public/assets/images/feature2.png"
+              src="/assets/images/feature2.png"
             />
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="cards">
             <div className="card">
               <div className="featureIcon">
-                <img src="/public/assets/map.svg" alt="map icon" />
+                <img src="/assets/map.svg" alt="map icon" />
               </div>
               <div className="featureDescription">
                 <h4>Find Cleanups Nearby</h4>
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
             <div className="card">
               <div className="featureIcon">
-                <img src="/public/assets/tap.svg" alt="counter icon" />
+                <img src="/assets/tap.svg" alt="counter icon" />
               </div>
               <div className="featureDescription">
                 <h4>Use Waste Counter</h4>
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="card">
               <div className="featureIcon">
-                <img src="/public/assets/achievement.svg" alt="trophy icon" />
+                <img src="/assets/achievement.svg" alt="trophy icon" />
               </div>
               <div className="featureDescription">
                 <h4>View Achievements</h4>
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
             <div className="card">
               <div className="featureIcon">
-                <img src="/public/assets/book.svg" alt="tips icon" />
+                <img src="/assets/book.svg" alt="tips icon" />
               </div>
               <div className="featureDescription">
                 <h4>Stay Informed & Aware</h4>
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <div className="sectionThree">
           <div className="sectionThree__left">
-            <img src="/public/assets/phone.svg" alt="phone image" />
+            <img src="/assets/phone.svg" alt="phone image" />
           </div>
           <div className="sectionThree__right">
             <h1>Let’s Do Our Part For A Better Home</h1>
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
           </div>
           <a
-            href="/public/assets/GreenCircle_Project Proposal.pdf"
+            href="/assets/GreenCircle_Project Proposal.pdf"
             download="Proposal.pdf"
             className="smallDownLoad noneDisplay"
           >
